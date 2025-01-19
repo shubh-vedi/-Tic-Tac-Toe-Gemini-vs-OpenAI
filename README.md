@@ -74,4 +74,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 5. Open a Pull Request
 
 ---
-Created with 💻 by [Your Name]
+Created with 💻 by shubh Vedi
