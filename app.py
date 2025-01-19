@@ -109,7 +109,7 @@ if google_api_key:
 if 'openai_api_key' in st.session_state and 'google_api_key' in st.session_state:
     player_x = Agent(
         name="Player X (Gemini)",
-        model=Gemini(id="gemini-2.0-flash-exp", api_key=st.session_state.google_api_key),
+        model=Gemini(id="gemini-2.0-flash", api_key=st.session_state.google_api_key),
         instructions=[
             "You are a Tic-Tac-Toe player using the symbol 'X'.",
             "Your opponent is using the symbol 'O'. Block their potential winning moves.",
@@ -123,7 +123,7 @@ if 'openai_api_key' in st.session_state and 'google_api_key' in st.session_state
 
     player_o = Agent(
         name="Player O (OpenAI)",
-        model=OpenAIChat(id="gpt-4", temperature=0.1, api_key=st.session_state.openai_api_key),
+        model=OpenAIChat(id="gpt-4o", temperature=0.1, api_key=st.session_state.openai_api_key),
         instructions=[
             "You are a Tic-Tac-Toe player using the symbol 'O'.",
             "Your opponent is using the symbol 'X'. Block their potential winning moves.",
