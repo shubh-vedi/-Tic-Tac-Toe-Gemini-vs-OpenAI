@@ -26,8 +26,8 @@ Watch two state-of-the-art AI models compete in real-time through an intuitive S
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/ai-tictactoe-arena.git
-cd ai-tictactoe-arena
+git clone (https://github.com/shubh-vedi/-Tic-Tac-Toe-Gemini-vs-OpenAI.git)
+cd -Tic-Tac-Toe-Gemini-vs-OpenAI
 ```
 
 2. Install dependencies:
